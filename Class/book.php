@@ -41,9 +41,8 @@ class BookModel
     {
         $sql = "SELECT *
                 FROM books
-                WHERE isbn = '%$isbn%'";
-        // return $this->run_my_select_sql($sql);
-        return $isbn;
+                WHERE isbn = '$isbn'";
+        return $this->run_my_select_sql($sql);
     }
 
     public function findByName($name)

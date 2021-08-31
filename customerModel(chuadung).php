@@ -34,5 +34,7 @@ class Customer_Model {
                 FROM customers
                 WHERE Name = '$name'";
         return $this->run_my_select_sql($sql);
-    }    
+    } 
+    test commit 3
+       
 }

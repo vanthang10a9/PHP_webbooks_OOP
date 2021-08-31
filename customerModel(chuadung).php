@@ -35,4 +35,6 @@ class Customer_Model {
                 WHERE Name = '$name'";
         return $this->run_my_select_sql($sql);
     }    
+    test commit feature2
+    
 }

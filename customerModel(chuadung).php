@@ -30,11 +30,10 @@ class Customer_Model {
     }
 
     public function getByName($name){
-        $sql = "SELECT customerid, Name, Address, City 
+        $sql = "SELECT customerid, name, address, City 
                 FROM customers
-                WHERE Name = '$name'";
+                WHERE name = '$name'";
         return $this->run_my_select_sql($sql);
-    } 
-    test commit 3
-       
+    }    
+    
 }
